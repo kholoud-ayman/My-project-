@@ -28,7 +28,14 @@ app.UseRouting();
 
 app.UseAuthorization();
 
+ Business
+app.MapControllerRoute    pattern: "{controller=Home}/{action=Index}/{id?}");
 app.MapControllerRoute(
     name: "default",
+Presentation
     pattern: "{controller=Home}/{action=Index}/{id?}")
+
+    pattern: "{controller=Home}/{action=Index}/{id?}");
+ master
+ master
 app.Run();
