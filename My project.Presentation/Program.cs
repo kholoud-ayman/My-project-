@@ -27,8 +27,5 @@ app.UseRouting();
 
 app.UseAuthorization();
 
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
-csharp
+app.MapControllerRoute    pattern: "{controller=Home}/{action=Index}/{id?}");
 app.Run();
