@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Razor.Language.Intermediate;
 using MyProject.Business.Services;
 using MyProject.DataAccess;
 
@@ -30,4 +31,5 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+CSharp
 app.Run();
