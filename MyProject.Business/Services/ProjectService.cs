@@ -14,6 +14,6 @@ public class ProjectService
             new Project { Id = 2, Name = "Project 2", Description = "Description 2" }
         };
 
-        return projects.Select(p => p.ToDTO()).ToList();
+        return projects.Select(p => p.ToDTO()).ToList()
     }
 }
